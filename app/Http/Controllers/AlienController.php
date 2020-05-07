@@ -15,7 +15,6 @@ class AlienController extends Controller
      */
     public function index()
     {
-        echo "111";
         $all=request()->all();
         $alien_name=request()->alien_name;
         $where=[];
